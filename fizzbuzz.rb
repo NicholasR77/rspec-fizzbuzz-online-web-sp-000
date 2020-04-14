@@ -9,6 +9,6 @@ def fizzbuzz(arg)
   elsif (arg % 5 == 0)
     return "Buzz"
   else
-    return "Nada"
+    return nil
   end
 end
